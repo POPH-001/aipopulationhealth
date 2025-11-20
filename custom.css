@@ -1,0 +1,25 @@
+.reveal h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.3em;
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+}
+
+.reveal {
+  font-size: 32px;
+}
+
+.reveal ul {
+  margin-top: 0.3em;
+}
+
+.reveal li {
+  margin-bottom: 0.4em;
+}
