@@ -1,0 +1,277 @@
+---
+title: ""
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: true
+    css: custom.css
+author: ""
+footer: ""
+---
+
+:::{.slide}
+# AI in Population Health  
+
+![](ai_in_health.png){width=50%}
+:::
+
+# Introduction
+
+![](ai_intro.png){width=60%}
+
+
+# Overview
+
+We will explore:
+
+1. **Predicting Health Risks**  
+2. **AI and Social Determinants of Health**  
+3. **AI for Interventions and Surveillance**  
+4. **Ethical Challenges**  
+
+
+
+# 1. Predicting Health Risks 🔮
+
+![](ai_predictingRisks.png){width=60%}
+
+**Process**: Data → AI learns patterns → Risk scores → Early intervention
+
+**Goal**: Predict disease before symptoms
+
+---
+
+## 1.1 Example: Heart Attack Prediction
+
+**IBM Watson Health**:
+
+- 90% accuracy predicting heart attacks weeks ahead
+- Early identification of high-risk patients
+
+**Benefits**: 
+
+- Individual: Personalized prevention
+- Population: Efficient resource allocation
+
+**Key insight**: Prevention upstream, not just treatment
+
+
+
+# 2. AI and Social Determinants of Health 🌍
+
+Health is shaped by where people live, work, and play:
+
+::: {.columns}
+::: {.column width="50%"}
+- Housing
+- Food access
+- Air pollution
+- Walkability
+:::
+
+::: {.column width="50%"}
+- Neighborhood safety
+- Income
+- Employment
+- Education
+:::
+:::
+
+---
+
+![](ai_patterns.png){width=40%}
+
+**Spatial modeling**: AI analyzes geographic data to find health patterns
+
+**AI advantage**: Combines satellite, GIS, social media, sensors, and demographics
+
+---
+
+## 2.1 Example: Dengue Fever Forecasting
+
+![](ai_picture2_1.png){width=50%}
+
+
+# 3. AI for Interventions and Surveillance 🎯
+
+**AI helps**:
+
+- Track outbreaks in real-time
+- Detect anomalies in surveillance
+- Predict hospital demand
+- Optimize vaccine distribution
+
+**Transformation**: Manual/slow → Automated/real-time
+
+---
+
+## 3.1 Disease Forecasting and Surveillance
+
+- **Data sources**: EHRs, social media, sensors, mobility data
+
+- **Example**: Google AI predicts COVID-19 cases 2 weeks ahead
+
+- **CDC surveillance**: 
+  - Identifies outbreaks
+  - tracks spread
+  - guides interventions
+
+---
+
+## 3.2 Case Study: COVID-19
+
+**AI supported pandemic response**:
+
+::: columns
+::: column
+
+- Case predictions 2 weeks ahead  
+- Contact tracing (including facial recognition with masks)  
+- Drug repurposing via deep learning  
+- BlueDot predicted spread (air travel + climate)  
+- Misinformation detection and control  
+
+:::
+
+::: column
+<img src="ai_supported_pandemic3_2.png" style="width:70%; margin-left:40px;">
+:::
+:::
+
+**Result**: Faster detection and response
+
+
+
+# 4. Ethical Challenges ⚖️
+
+**Four major risks**:
+
+1. Bias and discrimination
+2. Privacy and surveillance  
+3. Transparency ("black box")
+4. Global inequity
+
+---
+
+## 4.1 Challenge 1: Algorithmic Bias
+
+- **Problem**: Biased training data → Biased predictions
+
+- **Example**: Skin cancer AI trained on light skin fails on dark skin
+
+> "Inaccurate projections can result in inequitable resource distribution and harm to marginalized communities." — *Olawade et al., 2023*
+
+---
+
+## 4.2 Challenge 2: Privacy and Surveillance
+
+
+
+
+::: columns
+::: column
+
+
+- Re-identification of anonymized data
+- Misuse of location tracking
+- Insurance discrimination
+
+:::
+
+::: column
+<img src="ai_picture4_2.png" style="width:50%; margin-left:40px;">
+:::
+:::
+
+**Regulations**: HIPAA (US), GDPR (Europe) help but have limits
+
+**Question**: How much surveillance is acceptable?
+
+
+---
+
+
+## 4.3 Challenge 3: The Black Box Problem
+
+::: columns
+::: column
+
+**Issue**:  
+- Deep learning cannot explain decisions  
+
+**Why it matters**:  
+- Policymakers need to understand recommendations  
+- Public trust requires transparency  
+
+**Solution**: Explainable AI (XAI)
+
+:::
+
+::: column
+<br><br>
+
+![](xai.png){width=70% style="margin-left: 20px; margin-top: 15px;"}
+
+:::
+:::
+
+---
+
+## 4.4 Challenge 4: Global Inequity
+
+**Low-income countries lack**:
+
+- Quality training data
+- Computing infrastructure  
+- Technical expertise
+
+**Consequence**: Widening health disparities
+
+**Data quality**: "Garbage in, garbage out"
+
+
+
+# Summary
+
+**AI helps by**:
+
+- Predicting disease before symptoms
+- Understanding SDOH through spatial analysis
+- Improving interventions and surveillance
+
+**Must address**:
+
+- Bias, privacy, transparency, equity
+
+**Remember**: AI augments humans, does not replace them
+
+---
+
+# Discussion Questions
+
+1. Where should AI be used most urgently?
+
+2. Which ethical challenge is most pressing?
+
+3. Should AI models be open-source?
+
+4. What role for communities in AI decisions?
+
+---
+
+# References
+
+Olawade, D.B., Wada, O.J., David-Olawade, A.C., Kunonga, E., Abaire, O., & Ling, J. (2023). Using artificial intelligence to improve public health: a narrative review. *Frontiers in Public Health*, 11:1196397.
+
+World Health Organization. (2021). *Ethics and governance of artificial intelligence for health*. WHO guidance.
+
+---
+
+# Thank You
+
+**Questions?**
+
+Eric Delmelle  
+Lehigh University  
+Introduction to Population Health
